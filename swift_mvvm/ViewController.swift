@@ -87,7 +87,7 @@ class ViewController: UIViewController ,UICollectionViewDelegate,UICollectionVie
             return cell
         }else{
             cellTwo = collectionView.dequeueReusableCell(withReuseIdentifier: "cellIdTwo", for: indexPath) as! twoCollectionViewCell
-            cellTwo.twoLabel.text = String(indexPath.item)+"杯酒"
+            cellTwo.twoLabel.text = String(indexPath.item)+"杯酒水"
             return cellTwo
         }
         
